@@ -126,7 +126,7 @@ async function displayAlbums() {
 
 async function main() {
     // Get the list of all the songs
-    await getSongs("songs/${folder}");
+    await getSongs(`songs/${folder}`);
     console.log(songs);
     // playMusic(songs[0], true);
 
