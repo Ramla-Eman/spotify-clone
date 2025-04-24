@@ -1,0 +1,78 @@
+.border {
+    border: 2px solid red;
+    margin: 2px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-gray {
+    background-color: #121212;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+/* Target the scrollbar track */
+::-webkit-scrollbar {
+    width: 16px;
+    /* Adjust width as needed */
+    height: 10px;
+    /* Adjust height as needed */
+}
+
+/* Target the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background-color: #444;
+    /* Darker thumb color */
+    border-radius: 5px;
+    /* Rounded corners for the thumb */
+    border: 2px solid #222;
+    /* Add a subtle border */
+}
+
+/* Target the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #666;
+    /* Slightly lighter thumb on hover */
+}
+
+/* Target the scrollbar track's background */
+::-webkit-scrollbar-track {
+    background-color: #222;
+    /* Dark background for the track */
+}
+
+/* Optional: Style the scrollbar corner (where horizontal and vertical scrollbars meet) */
+::-webkit-scrollbar-corner {
+    background-color: #222;
+    /* Match the track background */
+}
